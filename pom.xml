@@ -25,6 +25,7 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
+        <product-common.version>0.0.1-SNAPSHOT</product-common.version>
     </properties>
 
     <dependencyManagement>
@@ -35,6 +36,11 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>product-common</artifactId>
+                <version>${product-common.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

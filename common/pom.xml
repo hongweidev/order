@@ -11,8 +11,15 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>common</artifactId>
+    <artifactId>order-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
     
 </project>
